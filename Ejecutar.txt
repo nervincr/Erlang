@@ -1,0 +1,13 @@
+Terminal Server:
+    cd("C:/GIT/Erlang").
+    c(funcion).
+    c(server).
+    c(client).
+    server:ini().
+Terminal Cliente:
+    cd("C:/GIT/Erlang").
+    client:enviar({fac,5}). / client:enviar({fib,5}).
+
+
+
+
