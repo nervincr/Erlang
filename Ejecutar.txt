@@ -3,10 +3,10 @@ Terminal Server:
     c(funcion).
     c(server).
     c(client).
-    server:ini().
+    server:iniciar_server().
 Terminal Cliente:
     cd("C:/GIT/Erlang").
-    client:enviar({fac,5}). / client:enviar({fib,5}).
+    client:enviar({fact,5}). / client:enviar({fibo,5}).
 
 
 
